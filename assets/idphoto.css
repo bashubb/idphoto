@@ -168,7 +168,7 @@ h3 { font-size: 24px; line-height: 28px; letter-spacing: -0.02em; font-weight: 9
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--s-600); align-items: center; }
 .hero-copy { max-width: 680px; }
 .hero .cta-row { margin-top: var(--s-500); }
-.proof { margin-top: var(--s-400); gap: var(--s-100) var(--s-400); font-size: 18px; line-height: 28px; font-weight: 600; color: var(--ink); }
+.proof { margin-top: var(--s-400); flex-direction: column; align-items: flex-start; gap: var(--s-100); font-size: 18px; line-height: 28px; font-weight: 600; color: var(--ink); }
 .proof svg { width: 24px; height: 24px; color: var(--ok); }
 .proof li { gap: var(--s-100); }
 
